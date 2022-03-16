@@ -1,0 +1,12 @@
+<menu xmlns:tools="http://schemas.android.com/tools"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@mipmap/loupe"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        app:actionViewClass="androidx.core.app.ShareCompat" />
+</menu>
